@@ -1,0 +1,109 @@
+.add_new_product_box {
+  width: 40%;
+  min-height: 80px;
+  text-align: center;
+  color: #ccc;
+  margin: 0px auto;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+
+.form {
+  width: 80%;
+  min-height: 100px;
+  text-align: left;
+  margin: 0px auto;
+}
+
+.form label {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #ccc;
+}
+
+.form input[type="text"],
+.form input[type="number"] {
+  width: 90%;
+  height: 30px;
+  color: rgb(170, 162, 162);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.form input[type="text"]:focus,
+.form input[type="number"]:focus {
+  color: rgb(107, 104, 104);
+  outline: 1px solid rgb(168, 167, 167);
+}
+
+.form input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.form input[type="number"]::-webkit-inner-spin-button,
+.form input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0;
+}
+
+.form input[type="submit"] {
+  width: 101%;
+  height: 35px;
+  background-color: rgb(84, 184, 167);
+  font-size: 18px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #56ccb8;
+  cursor: pointer;
+}
+
+.cancelar {
+  width: 101%;
+  height: 35px;
+  background-color: #ee6c60;
+  text-align: center;
+  margin-top: 6px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+.cancelar:hover {
+  background-color: #f39087;
+}
+
+.cancelar a {
+  display: block;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+.error_text {
+  width: 60%;
+  height: 30px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  margin: 16px auto;
+}
+
+.empty {
+  width: 60%;
+  height: 30px;
+}

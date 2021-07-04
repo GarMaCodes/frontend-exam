@@ -1,0 +1,42 @@
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: rgb(107, 104, 104);
+}
+
+table {
+  width: 80%;
+  height: auto;
+  margin: 30px auto;
+}
+
+thead {
+  min-height: 30px;
+  color: white;
+  background-color: rgb(84, 184, 167);
+}
+
+th {
+  text-align: left;
+  padding: 10px;
+  border-top: 1px solid rgb(107, 104, 104);
+}
+
+.errorMessage {
+  width: 40%;
+  height: 30px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  line-height: 30px;
+  margin: 0px auto;
+  border-radius: 5px;
+}
+
+.loading {
+  font-weight: bolder;
+  font-size: 25px;
+  color: rgb(107, 104, 104);
+  text-align: center;
+}

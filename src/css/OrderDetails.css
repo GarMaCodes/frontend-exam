@@ -1,0 +1,59 @@
+.add_product {
+  width: 15%;
+  height: 50%;
+  background-color: rgb(238, 179, 51);
+  text-align: center;
+  align-self: center;
+  margin: 0px auto;
+}
+
+.add_product:hover {
+  cursor: pointer;
+  background-color: rgb(231, 193, 88);
+}
+
+.add_product a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+
+.payment_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+  height: 40px;
+  margin: 0px auto;
+}
+
+.payment_button {
+  width: 15%;
+  height: 100%;
+  background-color: rgb(238, 108, 96);
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+
+.payment_button:hover {
+  background-color: #f39087;
+}
+
+.payment_button a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.error {
+  width: 40%;
+  height: 30px;
+  color: white;
+  background-color: red;
+  text-align: center;
+  line-height: 30px;
+  margin: 30px auto;
+  border-radius: 5px;
+}
