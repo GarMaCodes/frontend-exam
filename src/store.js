@@ -1,9 +1,7 @@
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
-import reducer from "./reducer"; //Como el archivo se llama index no es necesario indicarlo
-//como /index
+import reducer from "./reducer";
 
-//Si no de utiliza thunk para peticiones asíncronas, no se requiere applyMiddleware
 const store = createStore(
   reducer,
   compose(
@@ -14,10 +12,5 @@ const store = createStore(
       : (f) => f
   )
 );
-
-/*El código anterior cambió para que la app funcione aunque no se instale Redux dev tools
-    window.__REDUX_DEVTOOLS_EXTENSION__ &&
-    window.__REDUX_DEVTOOLS_EXTENSION__()
-*/
 
 export default store;
