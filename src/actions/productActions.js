@@ -19,7 +19,6 @@ const addProduct = (product_object) => ({
   payload: product_object,
 });
 
-//Función que descarga los productos de la API
 export function getPurchaseOrders_action() {
   return async (dispatch) => {
     dispatch(downloadOrders());
@@ -49,7 +48,6 @@ const downloadPurchaseOrders_failed = () => ({
   payload: true,
 });
 
-//Selecciona y edita unproducto
 export function getOrderObject(order) {
   return (dispatch) => {
     dispatch(getObject(order));
